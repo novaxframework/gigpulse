@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GigPulse — Your Freelance Job Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="logo">⚡ GigPulse</div>
+      <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge">🚀 Early Access — Free Forever for Founding Members</div>
+      <h1>Stop hunting for gigs.<br/>Let <span class="grad">GigPulse</span> hunt for you.</h1>
+      <p class="sub">GigPulse monitors every major freelance platform 24/7, scores listings against your skills and rate, and sends you a clean daily digest — only the good stuff.</p>
+      <a href="#waitlist" class="hero-btn">Get Early Access →</a>
+      <p class="social-proof">✦ 127 freelancers already on the waitlist</p>
+    </div>
+    <div class="hero-visual">
+      <div class="digest-card">
+        <div class="digest-header">
+          <span class="digest-logo">⚡</span>
+          <div>
+            <div class="digest-title">Your Daily GigPulse</div>
+            <div class="digest-date">Friday, April 3 · 3 new matches</div>
+          </div>
+        </div>
+        <div class="gig-item hot">
+          <div class="gig-meta">
+            <span class="platform">Upwork</span>
+            <span class="match-score">98% match</span>
+          </div>
+          <div class="gig-title">Python Automation Engineer — SaaS Startup</div>
+          <div class="gig-details">$85–110/hr · Long-term · Posted 2h ago</div>
+        </div>
+        <div class="gig-item">
+          <div class="gig-meta">
+            <span class="platform">We Work Remotely</span>
+            <span class="match-score">91% match</span>
+          </div>
+          <div class="gig-title">Backend Developer for Data Pipeline</div>
+          <div class="gig-details">$4,500/mo · Contract · Posted 5h ago</div>
+        </div>
+        <div class="gig-item">
+          <div class="gig-meta">
+            <span class="platform">RemoteOK</span>
+            <span class="match-score">87% match</span>
+          </div>
+          <div class="gig-title">Freelance Scraping Specialist</div>
+          <div class="gig-details">$75/hr · Short-term · Posted 8h ago</div>
+        </div>
+        <div class="digest-footer">↳ 14 other listings filtered out below your rate floor</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how">
+    <div class="section-inner">
+      <h2>How it works</h2>
+      <p class="section-sub">Set it up in 2 minutes. Let it run forever.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Set your profile</h3>
+          <p>Tell GigPulse your skills, rate floor, preferred niches, and platforms. Takes 2 minutes.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>We monitor 24/7</h3>
+          <p>GigPulse watches Upwork, LinkedIn, RemoteOK, We Work Remotely, Freelancer & more — every hour.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Get your daily digest</h3>
+          <p>One clean email. Top matches ranked by fit score. No noise. No job board scrolling. Ever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="section-inner">
+      <h2>Built for freelancers, not recruiters</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Smart Match Scoring</h3>
+          <p>Every listing gets scored against your exact profile. Not keyword matching — actual fit analysis.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Rate Floor Filter</h3>
+          <p>Set your minimum. Never see a $15/hr listing again. Your time is too valuable for noise.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📬</div>
+          <h3>Daily Digest Email</h3>
+          <p>One email, every morning. Your top 3-5 matches. Clean, scannable, actionable.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Real-Time Alerts</h3>
+          <p>Premium tier: get pinged the moment a 95%+ match drops. First mover advantage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔌</div>
+          <h3>6+ Platforms</h3>
+          <p>Upwork, LinkedIn, RemoteOK, We Work Remotely, Freelancer.com, Toptal — all in one place.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3>Gets Smarter Over Time</h3>
+          <p>The more you use it, the better it knows what you actually want. Feedback loop built in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist" id="waitlist">
+    <div class="section-inner waitlist-inner">
+      <h2>Join the waitlist</h2>
+      <p class="section-sub">Founding members get free access for life + first pick of features. No spam, ever.</p>
+      <form class="waitlist-form" id="waitlistForm">
+        <div class="form-row">
+          <input type="text" id="nameInput" placeholder="Your name" required />
+          <input type="email" id="emailInput" placeholder="Your email" required />
+        </div>
+        <select id="platformSelect">
+          <option value="" disabled selected>What's your main platform?</option>
+          <option>Upwork</option>
+          <option>LinkedIn</option>
+          <option>We Work Remotely</option>
+          <option>RemoteOK</option>
+          <option>Freelancer.com</option>
+          <option>Multiple / Other</option>
+        </select>
+        <button type="submit" class="submit-btn">Count me in ⚡</button>
+      </form>
+      <div class="success-msg" id="successMsg">
+        🎉 You're on the list! We'll be in touch soon.
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="logo">⚡ GigPulse</div>
+      <p>Built with care for freelancers everywhere.</p>
+      <p class="footer-small">© 2026 GigPulse. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
